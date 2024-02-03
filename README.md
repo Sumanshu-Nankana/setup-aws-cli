@@ -29,30 +29,25 @@ jobs:
 
 ## Inputs
 
-### `region`
+### `region` (Required)
 
-Required Input
 The AWS Region to configure and run your aws commands.
 
-### `access-key-id`
+### `access-key-id` (Required)
 
-Required Input
 The AWS Access KEY ID to access AWS account
 
-### `secret-access-key`
+### `secret-access-key` (Required)
 
-Required Input
 The AWS Secret Access KEY to access AWS account
 
-### `aws-cli-version`
+### `aws-cli-version` (Optional)
 
-Optional Input
 If you want to install any specific version of [awscli](https://pypi.org/project/awscli/), else default it will pick whatever latest version is available 
 
 
-### `output-format`
+### `output-format` (Optional)
 
-Optional Input
 The Output format of AWS commands
 
 
