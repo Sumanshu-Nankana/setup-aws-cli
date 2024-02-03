@@ -15,7 +15,6 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
       - uses: Sumanshu-Nankana/setup-aws-cli@v1
         with:
           region: 'eu-west-1'
