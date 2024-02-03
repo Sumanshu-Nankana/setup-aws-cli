@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: sumanshu-nankana/setup-aws-cli
+      - uses: Sumanshu-Nankana/setup-aws-cli@v1
         with:
           region: 'eu-west-1'
           access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
@@ -51,4 +51,4 @@ If you want to install any specific version of [awscli](https://pypi.org/project
 The Output format of AWS commands
 
 
-You can use [`sumanshu-nankana/setup-aws-cli`](https://github.com/Sumanshu-Nankana/setup-aws-cli) to automatically set up AWS CLI.
+You can use [`Sumanshu-Nankana/setup-aws-cli@v1`](https://github.com/Sumanshu-Nankana/setup-aws-cli) to automatically set up AWS CLI.
